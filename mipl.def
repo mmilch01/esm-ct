@@ -1,0 +1,7 @@
+PLATFORM	= LINUX
+ifeq (${PLATFORM},CYGWIN)
+SRCRT 		= /cygdrive/c/src/mipl
+else
+SRCRT		= ~/src/mipl
+RELEASE 	= ~/bin
+endif
